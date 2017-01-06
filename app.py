@@ -34,6 +34,8 @@ def processRequest(req):
     baseurl = "http://api.icndb.com/jokes/random?exclude=[nerdy,explicit]"
     result = urllib.urlopen(baseurl).read()
     data = json.loads(result)
+    print("Data: ")
+    print(data)
     res = makeWebhookResult(data)
     return res
 
@@ -43,6 +45,8 @@ def makeWebhookResult(data):
         return {}
     else:
         value = data.get('value')
+        print("Value: ")
+        print(value)
         if value is None:
             return {}
         else:
