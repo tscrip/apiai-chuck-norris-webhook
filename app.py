@@ -41,7 +41,10 @@ def processRequest(req):
 
 def makeWebhookResult(data):
     success = data.get('success')
-    if not success:
+    print("Success: ")
+    print(success)
+
+    if success == False:
         return {}
     else:
         value = data.get('value')
