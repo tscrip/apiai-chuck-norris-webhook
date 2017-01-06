@@ -1,7 +1,7 @@
 {
-  "name": "API.AI webhook demonstration",
-  "description": "API.AI webhook demonstration",
-  "repository": "https://github.com/api-ai/apiai-weather-webhook-sample",
-  "logo": "http://xvir.github.io/img/apiai.png",
-  "keywords": ["api.ai", "natural language"]
+  "name": "API.AI Get Chuck Norris Joke",
+  "description": "API.AI API to get Chuck Norris joke from ICNDB",
+  "repository": "https://github.com/tscrip/apiai-chuck-norris-webhook",
+  "logo": "http://www.4windowsphone.com/data/programs/images/9de9475b-92c7-4617-b27b-6d1025c0ff90_48604.png",
+  "keywords": ["api.ai", "natural language", "chuck norris", "joke", "riddle"]
 }
